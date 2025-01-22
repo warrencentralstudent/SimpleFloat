@@ -1,0 +1,18 @@
+.container {
+    border: 2px solid #333;
+    background: #f0f0f0;
+}
+
+.container::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.box {
+    float: right;
+    width: 120px;
+    height: 120px;
+    margin: 10px;
+    background: black;
+}
